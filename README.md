@@ -47,7 +47,7 @@ Projede bu katmanı oluştururken şablon olarak ASP .Net Core Web Uygulaması k
 ## 📷 Ekran Görüntüleri
 
 ### Bloglar
-![gif1](https://i.gyazo.com/58f1676db6c8370c2172e7504aa240df.gif)
+![gif1](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bloglar.gif)
 
 ### Blog Detayı
-![gif2](https://i.gyazo.com/dbad09cae417b7fbfc062361b6147f0a.gif)
+![gif2](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/blogDetayi.gif)
