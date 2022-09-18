@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@await Component.InvokeAsync("Statistic1")
+<div class="row">
+    @await Component.InvokeAsync("Statistic3")
+</div>
+<div class="row">
+    @*@await Component.InvokeAsync("Statistic2")*@
+
+</div>
+
+

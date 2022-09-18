@@ -1,0 +1,106 @@
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\yesim\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\refint\DataAccessLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache

@@ -1,0 +1,55 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<EntityLayer.Concrete.Writer>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yazar Listesi</h4>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th> # </th>
+                            <th> Adı Soyadı </th>
+                            <th> Hakkında </th>
+                            <th> Resim </th>
+                            <th> Mail </th>
+                            <th> Aktif Yap </th>
+                            <th> Pasif Yap </th>
+                            <th> Düzenle </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td> @item.WriterID </td>
+                                <td> @item.WriterName </td>
+                                <td> @item.WriterAbout </td>
+                                <td>@item.WriterImage</td>
+                                <td>@item.WriterMail</td>
+                                 <td><a href="/Admin/Writer/WriterActive/@item.WriterID/" onclick="return confirm('Seçilen Yazar Aktif Edildi.');"
+                                     class="btn btn-inverse-success btn-rounded">Aktif Yap</a></td>
+                                <td><a href="/Admin/Writer/WriterPassive/@item.WriterID/" 
+                                       id="DeleteBtn" onclick="return confirm('Seçilen Yazar Aktif Edildi.');" class="btn btn-inverse-danger btn-rounded">Pasif Yap</a></td>
+                                  <td><a href="/Admin/Writer/EditWriter/@item.WriterID/" class="btn btn-inverse-warning btn-rounded">Düzenle</a></td>    
+                                   </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <br />
+            @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+            <br />
+            @*<a href="/Admin/Writer/AddWriter/" class="btn btn-primary ">Yeni Yazar Ekle</a>*@
+        </div>
+
+    </div>
+</div>
+

@@ -1,0 +1,39 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+<div class="row">
+    <div class="col-md-12 stretch-card grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title mb-0">Kategoriler</p>
+                <div class="table-responsive">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th class="pb-2 border-bottom">#</th>
+                                <th class="border-bottom pb-2">Kategori Adı</th>
+                                <th class="border-bottom pb-2">Durum</th>
+                                <th class="border-bottom pb-2">İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                            <tr>
+                                <td>@item.CategoryID</td>
+                                <td>@item.CategoryName</td>
+                                <td>@item.CategoryStatus</td>
+                                <td >
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

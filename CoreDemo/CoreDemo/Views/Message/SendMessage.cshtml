@@ -1,0 +1,32 @@
+﻿@model EntityLayer.Concrete.Message2
+@{
+    ViewData["Title"] = "SendMessage";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Mesaj Oluştur</h4>
+
+            @using (Html.BeginForm("SendMessage", "Message", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label>Alıcı</label>
+                    @Html.TextBoxFor(x => x.ReceiverID, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Konu</label>
+                    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Mesaj İçeriği</label>
+                    @Html.TextAreaFor(x => x.MessageDetails, new { @class = "form-control" })
+                </div>
+                <button type="submit" class="btn btn-success mr-2">Mesaj Gönder</button>
+            }
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,54 @@
+﻿<style>
+    #top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+</style>
+<div class="col-md-6 col-xl-4 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="widget-head-color-box navy-bg p-lg text-center">
+                <div class="m-b-md my-2">
+                    <h2 class="font-bold no-margins">
+                        @ViewBag.adminName
+                    </h2>
+                    <small>Core Blog Kurucusu</small>
+                </div>
+                <img src="@ViewBag.adminImage" class="img-fluid w-50 rounded-circle mb-4" alt="profile">
+
+                <div class="widget-text-box">
+                    <h4 class="media-heading">@ViewBag.adminName</h4>
+                    <p>@ViewBag.adminDescription</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-xl-8 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel " id="owl-carousel-basic">
+                <div class="item">
+                    <img src="~/YazarTema/images/dashboard/people.svg" />
+
+
+                    <div id="top-right" class="text-dark">
+                        <div>
+                            <img alt="image" src="@ViewBag.icon">
+                            <h2 class="mb-0 font-weight-normal ">@ViewBag.temperature<sup>°C</sup></h2>
+                        </div>
+                        <div class="ml-2">
+
+                            <h4 class="location font-weight-normal">Türkiye</h4>
+                            <h6 class="font-weight-normal">Sakarya</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

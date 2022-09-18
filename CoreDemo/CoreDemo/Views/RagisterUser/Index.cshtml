@@ -1,0 +1,83 @@
+﻿@model UserSignUpViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kayıt Ol</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/LoginRegisterTema/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/LoginRegisterTema/css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Kayıt ol</h2>
+                        <form method="POST" class="register-form" id="register-form" asp-action="Index">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" asp-for="@Model.NameSurname" id="name" placeholder="Ad Soyad" />
+                                <span asp-validation-for="@Model.NameSurname" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" asp-for="@Model.Mail" id="email" placeholder="Mail" />
+                                <span asp-validation-for="@Model.NameSurname" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="text" asp-for="@Model.UserName" id="email" placeholder="Kullanıcı Adı" />
+                                <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" asp-for="@Model.Password" id="pass" placeholder="Şifre" />
+                                <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" asp-for="@Model.ConfirmPassword" id="re_pass" placeholder="Şifre Tekrar" />
+                                <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" asp-for="IsAcceptTheContract" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>Kullanım şartlarını okudum, kabul ediyorum.</label>
+                                <span asp-validation-for="@Model.IsAcceptTheContract" class="text-danger"></span>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Kayıt Ol" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="~/LoginRegisterTema/images/signup-image.jpg" alt="sing up image"></figure>
+                        <a href="/Login/Index/" >Bir hesabınız var mı?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sing in  Form -->
+
+
+    </div>
+
+    <!-- JS -->
+    <script src="~/LoginRegisterTema/vendor/jquery/jquery.min.js"></script>
+    <script src="~/LoginRegisterTema/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

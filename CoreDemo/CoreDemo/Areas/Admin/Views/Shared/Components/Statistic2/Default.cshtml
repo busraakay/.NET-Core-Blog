@@ -1,0 +1,33 @@
+﻿
+
+<div class="col-md-6 col-xl-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Son Eklenen Blog</h4>
+            <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel" id="owl-carousel-basic">
+                <div class="item">
+                    <a href="/Blog/BlogReadAll/@ViewBag.lastBlogID"><img src="@ViewBag.lastBlogImage" alt=""></a>
+                </div>
+            </div>
+            <div class="d-flex py-4">
+                <div class="preview-list w-100">
+                    <div class="preview-item p-0">
+                        <div class="preview-thumbnail">
+                            <img src="@ViewBag.lastBlogWriter" class="rounded-circle" alt="">
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                            <div class="flex-grow">
+                                <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                                    <h6 class="preview-subject"><a href="/Blog/BlogReadAll/@ViewBag.lastBlogID">@ViewBag.lastBlogName</a></h6>
+                                    <p class="text-muted text-small">@ViewBag.lastBlogDate - @ViewBag.lastBlogTime</p>
+                                </div>
+                                <p class="text-muted">@ViewBag.lastBlogContent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

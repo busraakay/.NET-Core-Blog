@@ -1,0 +1,39 @@
+﻿@using EntityLayer.Concrete
+@model List<Message2>
+@{
+    ViewData["Title"] = "Sendbox";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="col-md-12 col-xl-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex flex-row justify-content-between">
+                <h4 class="card-title">Giden Mesajlar</h4>
+            </div>
+            <div class="preview-list">
+                @foreach (var item in Model)
+                {
+                    <div class="preview-item border-bottom">
+                        <div class="preview-thumbnail">
+                            <img src="@item.ReceiverUser.WriterImage" alt="image" class="rounded-circle" />
+                        </div>
+                        <div class="preview-item-content d-flex flex-grow">
+                            <div class="flex-grow">
+                                <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                                    <h6 class="preview-subject">@item.ReceiverUser.WriterName</h6>
+                                    <p class="text-muted text-small">@item.MessageDate.ToShortDateString() - @item.MessageDate.ToShortTimeString()</p>
+                                </div>
+                                <p>@item.Subject</p>
+                                <p class="text-muted">@item.MessageDetails</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<a href="/Admin/AdminMessage/ComposeMessage/" class="btn btn-primary ">Yeni Mesaj Gönder</a>
+

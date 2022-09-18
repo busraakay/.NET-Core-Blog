@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "EditWriter";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@model EntityLayer.Concrete.Writer
+@{
+    ViewData["Title"] = "AddWriter";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yazar Düzenle</h4>
+            @using (Html.BeginForm("EditWriter", "Writer", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label>Writer ID</label>
+                    @Html.TextBoxFor(x => x.WriterID, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Yazar Adı</label>
+                    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterName)
+                </div>
+                <div class="form-group">
+                    <label>Yazar Hakkında</label>
+                    @Html.TextAreaFor(x => x.WriterAbout, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterAbout)
+                </div>
+                <div class="form-group">
+                    <label>Yazar Resmi</label>
+                    @Html.TextAreaFor(x => x.WriterImage, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterImage)
+                </div>
+                <div class="form-group">
+                    <label>Yazar Mail Adresi</label>
+                    @Html.TextAreaFor(x => x.WriterMail, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterMail)
+                </div>
+                <div class="form-group">
+                    <label>Yazar Durumu</label>
+                    @Html.TextAreaFor(x => x.WriterStatus, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterStatus)
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Güncelle</button>
+            }
+        </div>
+    </div>
+</div>
+

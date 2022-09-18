@@ -1,0 +1,100 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('/VitrinTema/images/img_4.jpg');">
+            <div class="container">
+                <div class="row same-height justify-content-center">
+                    <div class="col-md-12 col-lg-10">
+                        <div class="post-entry text-center">
+                            <h1 class="">Hakkımızda</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="site-section bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-md-2">
+                        <img src="/VitrinTema/images/img_1.jpg" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="col-md-5 mr-auto order-md-1">
+                        <h2>Biz Kimiz & Misyonumuz & Vizyonumuz</h2>
+                        @foreach (var item in Model)
+                        {
+                        <p>@item.AboutDetails1</p>
+
+                        }@*<ul class="ul-check list-unstyled success">
+                            <li>Onsectetur adipisicing elit</li>
+                            <li>Dolorem saepe non eligendi possimus</li>
+                            <li>Voluptate odit corrupti vitae</li>
+                        </ul>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-section">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 mb-5 text-center">
+                        <img src="/VitrinTema/images/busra.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
+                        <h2 class="mb-3 h5">Büşra Akay</h2>
+                        <p>Büşra AKAY, 02.04.1999’da İzmit’te doğdu. İlk ve orta öğretimini İzmit’te tamamladı. 2017 yılında İzmit Mimar Sinan Anadolu Lisesi’nden mezun oldu. 2018 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü’nü kazandı. Şu an Sakarya Üniversitesinde 4. Sınıf olarak öğrenim hayatına devam ediyor. </p>
+
+                        <p class="mt-5">
+                            <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+                            <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+                            <a href="#" class="p-3"><span class="icon-twitter"></span></a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 mb-5 text-center">
+                        <img src="/VitrinTema/images/yesim.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
+                        <h2 class="mb-3 h5">Yeşim Köse</h2>
+                        <p>
+                            Yeşim KÖSE, 22.12.2000 de Samsun’ da doğdu. İlk ve orta öğretimini Terme’ de tamamladı. 2017 yılında Vezirköprü Anadolu Öğretmen Lisesi’nden mezun oldu. 2018 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü’nü kazandı ve hala orada okumaktadır. 2021 Haziran ayında Albaraka Türk Katılım Bankası A.Ş. şirketinde donanım stajını yapmıştır.
+                            09.09.2021 tarihinden itibaren AlbarakaTech Global şirketinde yazılımcı olarak part time çalışmaktadır
+                        </p>
+
+                        <p class="mt-5">
+                            <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+                            <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+                            <a href="#" class="p-3"><span class="icon-twitter"></span></a>
+                        </p>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+        @await Html.PartialAsync("~/Views/NewsLetter/SubscribeMail.cshtml")
+
+    </div>
+</body>
+</html>

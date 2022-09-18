@@ -1,0 +1,46 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Blog Ekle</h4>
+
+            @using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label>Blog Başlığı</label>
+                    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.BlogTitle)
+                </div>
+                <div class="form-group">
+                    <label>Blog Görseli</label>
+                    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Blog Küçük Görsel</label>
+                    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Kategorisi</label>
+                    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.cv, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Blog İçeriği</label>
+                    @Html.TextAreaFor(x => x.BlogContent, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.BlogContent)
+                </div>
+                <button type="submit" class="btn btn-success mr-2">Yazıyı Kaydet</button>
+            }
+
+
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "EditComment";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@model EntityLayer.Concrete.Comment
+@{
+    ViewData["Title"] = "AddComment";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yorum Düzenle</h4>
+            @using (Html.BeginForm("EditComment", "Comment", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label>Comment ID</label>
+                    @Html.TextBoxFor(x => x.CommentID, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Yazar Adı</label>
+                    @Html.TextBoxFor(x => x.CommentUserName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.CommentUserName)
+                </div>
+                <div class="form-group">
+                    <label>Yorum Başlığı</label>
+                    @Html.TextAreaFor(x => x.CommentTitle, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.CommentTitle)
+                </div>
+                <div class="form-group">
+                    <label>Yorum Açıklaması</label>
+                    @Html.TextAreaFor(x => x.CommentContent, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.CommentContent)
+                </div>
+                <div class="form-group">
+                    <label>Yorum Tarihi</label>
+                    @Html.TextAreaFor(x => x.CommentDate, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.CommentDate)
+                </div>
+                <div class="form-group">
+                    <label>Yorum Durumu</label>
+                    @Html.TextAreaFor(x => x.CommentStatus, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.CommentStatus)
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Güncelle</button>
+            }
+        </div>
+    </div>
+</div>
+

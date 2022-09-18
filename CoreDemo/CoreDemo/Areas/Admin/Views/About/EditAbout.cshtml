@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "EditAbout";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@model EntityLayer.Concrete.About
+@{
+    ViewData["Title"] = "AddAbout";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Hakkımızda Düzenle</h4>
+            @using (Html.BeginForm("EditAbout", "About", FormMethod.Post))
+            {
+                <div class="form-group">
+                    <label>About ID</label>
+                    @Html.TextBoxFor(x => x.AboutID, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Açıklama Alanı 1</label>
+                    @Html.TextBoxFor(x => x.AboutDetails1, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.AboutDetails1)
+                </div>
+                <div class="form-group">
+                    <label>Açıklama Alanı 2</label>
+                    @Html.TextAreaFor(x => x.AboutDetails2, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.AboutDetails2)
+                </div>
+                <div class="form-group">
+                    <label>Resim</label>
+                    @Html.TextAreaFor(x => x.AboutImage1, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.AboutImage2)
+                </div>
+                <div class="form-group">
+                    <label>Harita Konumu</label>
+                    @Html.TextAreaFor(x => x.AboutMapLocation, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.AboutMapLocation)
+                </div>
+                <div class="form-group">
+                    <label>Hakkımızda Durumu</label>
+                    @Html.TextAreaFor(x => x.AboutStatus, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.AboutStatus)
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Güncelle</button>
+            }
+        </div>
+    </div>
+</div>
+

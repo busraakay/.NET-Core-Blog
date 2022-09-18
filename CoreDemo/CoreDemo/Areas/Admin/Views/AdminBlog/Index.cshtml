@@ -1,0 +1,45 @@
+﻿@using EntityLayer.Concrete
+@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+
+        <div class="col-xl-4 col-sm-4 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    @*<div class="owl-carousel full-width owl-carousel-dash portfolio-carousel" id="owl-carousel-basic">
+                        <div>
+                            <a href="/Blog/BlogReadAll/@item.BlogID"><img src="@item.BlogImage" class="img-1" alt=""></a>
+                        </div>
+                    </div>*@
+                    <div>
+                        <a href="/Blog/BlogReadAll/@item.BlogID"><img src="@item.BlogImage" style="width: 470px; height: 300px;" alt=""></a>
+                    </div>
+                    <div class="d-flex py-4">
+                        <div class="preview-list w-100">
+                            <div class="preview-item p-0">
+                                <div class="preview-thumbnail">
+                                    <img src="@item.Writer.WriterImage" class="rounded-circle" alt="">
+                                </div>
+                                <div class="preview-item-content d-flex flex-grow">
+                                    <div class="flex-grow">
+                                        <div class="d-flex d-md-block d-xl-flex justify-content-between">
+                                            <h6 class="preview-subject"><a href="/Blog/BlogReadAll/@item.BlogID">@item.BlogTitle</a></h6>
+                                            <p class="text-muted text-small">@item.BlogCreateDate.ToShortDateString()</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,35 @@
+﻿@using EntityLayer.Concrete
+@model List<Notification>
+@{
+    ViewData["Title"] = "AllNotification";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+
+<div class="col-md-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title">Bildirimler</p>
+            <ul class="icon-data-list" >
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <div class="d-flex dropdown-item preview-item">
+                            <div class="preview-thumbnail">
+                                <div class="@item.NotificationColor">
+                                    <i class="@item.NotificationTypeSymbol"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-info mb-1">@item.NotificationType</p>
+                                <p class="mb-0">@item.NotificationDetails</p>
+                                <small>@item.NotificationDate.ToShortDateString() - @item.NotificationDate.ToShortTimeString()</small>
+                            </div>
+                        </div>
+                    </li>
+                }
+
+            </ul>
+        </div>
+    </div>
+</div>

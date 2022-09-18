@@ -1,0 +1,51 @@
+﻿@model CoreDemo.Models.AddProfileImage
+@{
+    ViewData["Title"] = "WriterAdd";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Yazar Ekle</h3>
+
+            <form class="form-group" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Yazar Adı ve Soyadı</label>
+                    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterName)
+                </div>
+                <div class="form-group">
+                    <label>Mail</label>
+                    @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterMail)
+                </div>
+                <div class="form-group">
+                    <label>Şifre</label>
+                    @Html.PasswordFor(x => x.WriterPassword, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterPassword)
+                </div>
+                <div class="form-group">
+                    <label>Resim Yükle</label>
+                    <input type="file" name="WriterImage" />
+                    @*<input type="file" name="img[]" class="file-upload-default">
+                    <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled placeholder="Resim yükle">
+                        <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-primary" type="button">Resim Seç</button>
+                        </span>
+                    </div>*@
+                </div>
+                <div class="form-group">
+                    <label>Yazar Hakkında</label>
+                    @Html.TextAreaFor(x => x.WriterAbout, 10, 3, new { @class = "form-control" })
+                </div>
+                <button type="submit" class="btn btn-success mr-2">Kaydet</button>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
+

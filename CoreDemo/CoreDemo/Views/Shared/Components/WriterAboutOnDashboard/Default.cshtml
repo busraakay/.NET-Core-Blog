@@ -1,0 +1,23 @@
+﻿@using EntityLayer.Concrete
+@model List<Writer>
+
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col-md-12 stretch-card grid-margin">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-title mb-0 ">Yazar Hakkında</p>
+                    <div class="d-flex m-4">
+                        <img src="@item.WriterImage" style="height:100px; width:100px;" alt="user">
+                        <div>
+                            <p class="text-info m-4">@item.WriterName - @item.WriterMail</p>
+                            <p class="m-3">@item.WriterAbout</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

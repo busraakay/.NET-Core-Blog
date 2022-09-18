@@ -1,0 +1,72 @@
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\yesim\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\yesim\Desktop\Bitirme-master - Kopya\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\Lenovo\Desktop\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\busra\Downloads\CoreDemo2\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
