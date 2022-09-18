@@ -10,7 +10,7 @@
 - **Html-Css-Bootstrap** ile arayüz tasarımı
 - **Identity** kütüphanesi ile kayıt ve rol işlemleri
 - **Ajax** ile Mail Bülteni
-## 📋 N Katmanlı Mimari
+## 📋 N-Katmanlı Mimari
 Projede ilk başta dört katman oluşturuldu. Bunlar Entity Layer, Data Accsess Layer, Business Layer ve Presentation Layer. Bunlardan Presentation Layer dışındakileri .Net 5 sınıf kitaplığı olarak oluşturuldu. Presentation Layer’da ise ASP .Net 5 Core Web Uygulaması olarak MVC kullanarak oluşturuldu.
 
 ### Entity Layer
@@ -83,4 +83,31 @@ Projede bu katmanı oluştururken şablon olarak ASP .Net Core Web Uygulaması k
 
 #### Bildirimler
 ![bildirimler](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bildirimler.PNG)
+
+### Admin Paneli
+
+#### Anasayfa
+![adminAnasayfa](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/adminAnasayfa.PNG)
+
+#### Kategoriler
+![kategoriler](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/kategoriler.PNG)
+
+#### Yeni Kategori Ekle
+![yeniKategoriEkle](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/yeniKategoriEkle.PNG)
+
+#### Mesajlar
+![adminMesajlar](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/adminMesajlar.PNG)
+
+#### Bloglar
+![adminBloglar](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/admibBloglar.PNG)
+
+#### Roller
+![roller](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/roller.PNG)
+
+#### Kullanıcılar ve Rolleri
+![kullaniciRol](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/kullaniciVeRolleri.gif)
+
+#### Grafikler
+![grafikler](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/grafikler.PNG)
+
 
