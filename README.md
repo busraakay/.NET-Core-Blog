@@ -1,8 +1,12 @@
 # ✏️ CoreTech Blog Sitesi
 <p> CoreTech ASP.Net 5 ile geliştirilmiş bir blog sitesidir. Bu siteyi geliştirilirken Murat Yücedağ .Net 5 Proje Kampı'ndan yararlanılmıştır. </p>
 
-## ⚙️ Kullanılan Teknolojiler
-- **ASP.Net Core 5.0 ile Entity Framework Core**
+<a href='#teknolojiler'>Kullanılan Teknolojiler</a><br>
+<a href='#mimari'>N-Katmanlı Mimari</a><br>
+<a href='#goruntu'>Ekran Görüntüleri</a><br>
+
+## <p id = 'teknolojiler' > ⚙️ Kullanılan Teknolojiler </p> 
+- **ASP.Net Core 5.0** ile **Entity Framework Core**
 - **N Tier Architechture** mimarisi
 - **CodeFirst** yaklaşımı
 - **Microsoft SQL Server** veritabanı
@@ -10,7 +14,7 @@
 - **Html-Css-Bootstrap** ile arayüz tasarımı
 - **Identity** kütüphanesi ile kayıt ve rol işlemleri
 - **Ajax** ile Mail Bülteni
-## 📋 N-Katmanlı Mimari
+## <p id = 'mimari' > 📋 N-Katmanlı Mimari </p> 
 Projede ilk başta dört katman oluşturuldu. Bunlar Entity Layer, Data Accsess Layer, Business Layer ve Presentation Layer. Bunlardan Presentation Layer dışındakileri .Net 5 sınıf kitaplığı olarak oluşturuldu. Presentation Layer’da ise ASP .Net 5 Core Web Uygulaması olarak MVC kullanarak oluşturuldu.
 
 ### Entity Layer
@@ -43,8 +47,7 @@ Kullanıcıyla direkt olarak etkileşimde bulunulan katmandır. Bu katman veri k
 
 Projede bu katmanı oluştururken şablon olarak ASP .Net Core Web Uygulaması kullandığımız için belli başlı klasörler kendiliğinden oluşmuş oldu. 
 
-
-## 📷 Ekran Görüntüleri
+## <p id = 'goruntu' > 📷 Ekran Görüntüleri </p> 
 ### Vitrin Paneli
 #### Bloglar
 ![bloglar](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bloglar.gif)
