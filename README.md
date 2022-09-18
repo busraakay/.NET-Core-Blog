@@ -45,9 +45,21 @@ Projede bu katmanı oluştururken şablon olarak ASP .Net Core Web Uygulaması k
 
 
 ## 📷 Ekran Görüntüleri
-
-### Bloglar
+### Vitrin Paneli
+#### Bloglar
 ![gif1](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bloglar.gif)
 
-### Blog Detayı
+#### Blog Detayı
 ![gif2](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/blogDetayi.gif)
+
+#### Hakkımızda
+![hakkimizda](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/hakkimizda.gif)
+
+#### İletişim
+![hakkimizda](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/iletisim.gif)
+
+#### Kayıt Ol
+![hakkimizda](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/kayit.PNG)
+
+#### Giriş Yap
+![hakkimizda](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/giris.gif)
