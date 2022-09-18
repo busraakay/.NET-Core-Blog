@@ -47,10 +47,10 @@ Projede bu katmanı oluştururken şablon olarak ASP .Net Core Web Uygulaması k
 ## 📷 Ekran Görüntüleri
 ### Vitrin Paneli
 #### Bloglar
-![gif1](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bloglar.gif)
+![bloglar](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bloglar.gif)
 
 #### Blog Detayı
-![gif2](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/blogDetayi.gif)
+![blogDetay](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/blogDetayi.gif)
 
 #### Hakkımızda
 ![hakkimizda](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/hakkimizda.gif)
@@ -63,3 +63,24 @@ Projede bu katmanı oluştururken şablon olarak ASP .Net Core Web Uygulaması k
 
 #### Giriş Yap
 ![hakkimizda](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/giris.gif)
+
+### Yazar Paneli
+
+#### Anasayfa
+![anasayfa](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/yazarAnasayfa.gif)
+
+#### Profilim
+![profilim](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/profilim.PNG)
+
+#### Bloglarım
+![bloglarim](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bloglarim.PNG)
+
+#### Yeni Blog Ekle
+![yeniBlogEkle](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/yeniBlogEkle.PNG)
+
+#### Mesajlar
+![mesajlar](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/mesajlar.PNG)
+
+#### Bildirimler
+![bildirimler](https://github.com/busraakay/.NET-Core-Blog/blob/main/Gifler/bildirimler.PNG)
+
